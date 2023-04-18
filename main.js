@@ -94,7 +94,4 @@ const allGame = () => {
 
 allGame();
 
-/*console.log(randomCard2);
 
-console.log(deck[randomCard1])
-console.log(deck[randomCard2])*/
