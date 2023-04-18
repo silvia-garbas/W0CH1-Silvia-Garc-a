@@ -17,7 +17,6 @@ const carta = [
   { value: 13, name: "rey" },
 ];
 
-console.log(carta.value);
 const deck = [];
 
 const totalDeck = (palo) => {
@@ -35,16 +34,12 @@ totalDeck("spades");
 totalDeck("clovers");
 totalDeck("diamonds");
 
-console.log(deck);
-console.log(deck.value);
 
 const getRandomCard1 = () => {
   let randomCard1 = Math.floor(Math.random() * 52);
   myCard1 = deck[randomCard1];
   console.log(`Tu carta es ${myCard1.value} ${myCard1.symbol}`);
- 
-
-};
+ };
 
 
 const getRandcomCard2 = () => {
