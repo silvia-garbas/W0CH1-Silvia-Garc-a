@@ -41,18 +41,15 @@ console.log(deck.value);
 const getRandomCard1 = () => {
   let randomCard1 = Math.floor(Math.random() * 52);
   myCard1 = deck[randomCard1];
-  console.log(myCard1);
-  //console.log(deck[randomCard1]); Es igual que myCArd1
   console.log(`Tu carta es ${myCard1.value} ${myCard1.symbol}`);
-  console.log(myCard1.value); //saca el número en consola
-  //console.log(typeof myCard1.value) //(nümero)
+ 
+
 };
 
 
 const getRandcomCard2 = () => {
   let randomCard2 = Math.floor(Math.random() * 52);
   myCard2 = deck[randomCard2];
-  console.log(myCard2);
   console.log(`La segunda carta es ${myCard2.value} ${myCard2.symbol}`);
 };
 
@@ -83,7 +80,6 @@ const askToUserIfTheCardIsMinorOrMayor = () => {
     alert("Esta vez no ha habido suerte.");
   }
 };
-/*askToUserIfTheCardIsMinorOrMayor();*/
 
 const allGame = () => {
   totalDeck();
