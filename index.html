@@ -1,28 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
- <h1>HOLA</h1>
-<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Counter</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Card Game</title>
+  <title>Baraja de cartas</title>
   <link rel="shortcut icon" href="silvia.ico3.jpg" type="image/x-icon">
 
   <link rel="stylesheet" type="text/css" href="style.css" />
@@ -32,23 +15,34 @@
 
   <main class="main container">
 
-    <section class = "presentacion"> Baraja francesa </section>
-    <p>Aquí van las instrucciones para el juego:</p>
-    
-    <section class = "cartas">
-     <ul>
-      <li class = "myCard1">  Esta es tu primera carta:</li>
-      <li class = "myCard2"> Esta es la segunda carta:</li>
-     </ul>
+    <section class="instrucciones"> Baraja francesa </section>
+    <p>El objetivo del juego es adivinar si la siguiente carta en el mazo es mayor o menor que la carta actual.
+      <br>
+      Clique en el botón suffle para barajar las cartas.
+      <br>
+      Clique en el botón Start para mostrar en pantalla la primera carta.
+      <br>
+      Clique en el botón: Less-than o Greater-than.
+      <br>
+      Clique en el botón para mostrar en pantalla la segunda carta.
+    </p>
+
+    <section class="cartas">
+      <ul>
+        <li class="displayCard1"> Esta es tu primera carta:</li>
+        <li class="displayCard2"> Esta es la segunda carta:</li>
+      </ul>
     </section>
     <section>
-    <span class="buttons">Interacciona con los botones</span>
-    <button class="menor">Less-than</button>
-    <button class="mayor">Greater-than</button>
-    <button class="restart">Restart or Delete</button>
+      <span class="buttons">Interacciona con los botones</span>
+      <button class="suffle">Suffle</button>
+      <button class="start">Start</button>
+      <button class="menor">Less-than</button>
+      <button class="mayor">Greater-than</button>
+
     </section>
 
-  
+
   </main>
 
   <script type="text/javascript" src="main.js"></script>
@@ -57,12 +51,13 @@
 </html>
 
 
-  <!-- Import JS file-->
-  <script type="text/javascript" src="script.js"></script>
+<!-- Import JS file-->
+<script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
 
-  <script src="main.js" type="text/javascript"></script>
+<script src="main.js" type="text/javascript"></script>
 </body>
+
 </html>

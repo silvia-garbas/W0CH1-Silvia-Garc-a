@@ -1,5 +1,7 @@
 let myCard1;
 let myCard2;
+const display = document.querySelector(".display");
+
 
 const carta = [
   { value: 1, name: "as" },
