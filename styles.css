@@ -1,12 +1,36 @@
-* {box-sizing :
+* { box-sizing:
     border-box;
   }
 
-  html{
-    font-family:'Courier New', Courier, monospace;
+  html {
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color:black;
+    font-size: 15px;
   }
 
-  body{
+  body {
     margin: 0;
   }
+header {
+    height: 55px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: justify;
+    background-color:#e9dcdd;
+    color: #913258;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+ .instrucciones{
+  padding: 20px;
+ }
+.cartas{
+  display:flex;
+}
+ ul{
+  list-style-type: none;
+  display:flex;
+  
+ }
