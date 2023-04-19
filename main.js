@@ -4,7 +4,7 @@ const display = document.querySelector(".display");
 
 
 const carta = [
-  { value: 1, name: "as" },
+  { value:14, name: "as" },
   { value: 2, name: "dos" },
   { value: 3, name: "tres" },
   { value: 4, name: "cuatro" },
@@ -54,11 +54,11 @@ const getRandcomCard2 = () => {
 let count = 0;
 
 const askToUserIfTheCardIsMinorOrMayor = () => {
-  const answer = prompt(
+  /*const answer = prompt(
     "Bienvenido usuario esta es tu carta. ¿Crees que la siguiente carta será mayor o menor. Escribe mayor o menor, por favor"
-  );
+  );*/
   if (answer === null && answer === "" && answer === undefinded) {
-    alert(`Escriba, por favor, una de las dos opciones: mayor o menor`);
+    /*alert(`Escriba, por favor, una de las dos opciones: mayor o menor`)*/;
     askToUserIfTheCardIsMinorOrMayor();
   }
     getRandcomCard2();
@@ -74,7 +74,7 @@ const askToUserIfTheCardIsMinorOrMayor = () => {
     (answer.toUpperCase() === "MAYOR" && myCard1.value > myCard2.value) ||
     (answer.toUpperCase() === "MENOR" && myCard1.value < myCard2.value)
   ) {
-    alert("Esta vez no ha habido suerte.");
+    /*alert("Esta vez no ha habido suerte.");*/
   }
 };
 
